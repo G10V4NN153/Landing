@@ -1,0 +1,100 @@
+body{
+    margin:0;
+   
+}
+.title{
+    font-size: 24px;
+}
+.logo{
+    width: 50px;
+    height: auto;
+    border-radius:50%;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    display: flex;
+    margin-left: auto;
+    
+}
+a {
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 18px;
+
+}
+.top{
+    background-color: blueviolet;
+    margin: 0;
+    color:white
+}
+.header{
+    display:flex;
+    align-items: center;
+    padding:10px 30px 30px;
+}
+.awesome{
+    font-size:48px;
+    font-weight:800;
+    padding:0px 30px
+
+}
+.tree{
+    width: 350px;
+    height: auto;
+    display:flex;
+    flex: 0 1 auto;
+    padding:30px;
+}
+.h2{
+    display:flex;
+    flex-flow:column;
+    padding:30px;
+    
+}
+.h{
+    display:flex;
+}
+.h2 button{
+   border:none;
+   border-radius:8px;
+    width:fit-content;
+    padding: 10px;
+    background-color: chartreuse;
+}
+.random{
+    text-align: center;
+    /* margin:auto; */
+    font-size:36px;
+    font-weight:900;
+}
+.container{
+    display:flex;
+    justify-content:center;
+}
+.container img{
+    width:180px;
+    height:100px;
+    display:flex;
+    flex: 0 1 auto;
+    margin:20px;
+   
+}
+.middle{
+    padding:10px 30px 20px 30px;
+    background-color: yellow;
+}
+.container .text{
+    display:flex;
+    flex: 0 1 auto;
+    margin:20px;
+}
+.quote{
+    padding:20px 30px 0px 30px;
+}
+div .author{ 
+display:flex;
+margin:0px 30px 20px 30px;
+justify-content: flex-end;
+}
