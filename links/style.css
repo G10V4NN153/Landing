@@ -1,6 +1,15 @@
 body{
+    margin:0px;
+    min-height: 100vh;
+}
+.body{
     margin:0;
-   
+   display:flex;
+   flex:0 0 500px;
+   flex-direction:column;
+   padding:0px;
+   height:600px;
+   min-height: 100vh;;
 }
 .title{
     font-size: 24px;
@@ -69,7 +78,7 @@ a {
     font-size:36px;
     font-weight:900;
 }
-.container{
+.middle.container{
     display:flex;
     justify-content:center;
 }
@@ -97,4 +106,31 @@ div .author{
 display:flex;
 margin:0px 30px 20px 30px;
 justify-content: flex-end;
+}
+
+.box{
+    padding:20px 30px;
+    background-color: greenyellow;
+margin:auto;
+border-radius: 16px;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    padding:20px;
+    margin-top:auto;
+}
+.container{
+    display:flex;
+justify-content: center;
+align-items:center;
+margin:auto;
+}
+.signup{
+    background-color: greenyellow;
+    border-color: white;
+    border-radius: 8px;
+    color: blueviolet;
 }
