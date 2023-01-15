@@ -15,7 +15,7 @@ body{
     font-size: 24px;
 }
 .logo{
-    width: 50px;
+    width: 32px;
     height: auto;
     border-radius:50%;
 }
@@ -25,11 +25,12 @@ ul {
     padding:0;
     display: flex;
     margin-left: auto;
+    gap:16px;
     
 }
 a {
     text-decoration: none;
-    color: chartreuse;
+    color: blueviolet;
     font-size: 18px;
 
 }
@@ -42,6 +43,8 @@ a {
     display:flex;
     align-items: center;
     padding:10px 30px 30px;
+    background-color: greenyellow;
+    color:blueviolet
 }
 .awesome{
     font-size:48px;
@@ -55,12 +58,15 @@ a {
     display:flex;
     flex: 0 1 auto;
     padding:30px;
+    border-radius: 50%;
+    margin-right:auto;
 }
 .h2{
     display:flex;
     flex-flow:column;
     padding:30px;
-    
+    margin-left:auto;
+    flex:0 1 auto
 }
 .h{
     display:flex;
@@ -88,16 +94,24 @@ a {
     display:flex;
     flex: 0 1 auto;
     margin:20px;
-   
+    border-radius: 50%;
+
 }
 .middle{
     padding:10px 30px 20px 30px;
-    background-color: yellow;
+
 }
 .container .text{
     display:flex;
     flex: 0 1 auto;
     margin:20px;
+}
+.part{
+    background-color: greenyellow;
+    margin:auto;
+    width:600px;
+    padding: 20px 30px;
+    border-radius:16px;
 }
 .quote{
     padding:20px 30px 0px 30px;
@@ -113,15 +127,12 @@ justify-content: flex-end;
     background-color: greenyellow;
 margin:auto;
 border-radius: 16px;
+width:600px;
+display:flex;
+flex-flow:row wrap;
+
 }
-.footer{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-    padding:20px;
-    margin-top:auto;
-}
+
 .container{
     display:flex;
 justify-content: center;
@@ -133,4 +144,14 @@ margin:auto;
     border-color: white;
     border-radius: 8px;
     color: blueviolet;
+    margin-left:auto;
+}
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    padding:20px;
+    margin-top:auto;
+   
 }
