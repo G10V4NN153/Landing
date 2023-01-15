@@ -1,6 +1,8 @@
 body{
     margin:0px;
     min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:18px;
 }
 .body{
     margin:0;
@@ -77,6 +79,8 @@ a {
     width:fit-content;
     padding: 10px;
     background-color: chartreuse;
+    border-width: 2px;
+    border-style:solid;
 }
 .random{
     text-align: center;
@@ -115,6 +119,10 @@ a {
 }
 .quote{
     padding:20px 30px 0px 30px;
+    font-size: 36px;
+    font-weight:400;
+    font-style: italic;
+
 }
 div .author{ 
 display:flex;
@@ -125,7 +133,7 @@ justify-content: flex-end;
 .box{
     padding:20px 30px;
     background-color: greenyellow;
-margin:auto;
+margin:20px;
 border-radius: 16px;
 width:600px;
 display:flex;
@@ -145,6 +153,8 @@ margin:auto;
     border-radius: 8px;
     color: blueviolet;
     margin-left:auto;
+    border-width: 2px;
+    border-style:solid;
 }
 .footer{
     display:flex;
